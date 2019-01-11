@@ -1,0 +1,16 @@
+{
+  "name": "webstream",
+  "version": "1.0.0",
+  "description": "minimal local webstream server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anju S.",
+  "license": "Apache 2.0 and MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-media-server": "^1.4.9"
+  }
+}
