@@ -1,8 +1,6 @@
 //This code is copyright to and liscensed from node-media-server
-const { NodeMediaCluster,NodeMediaServer } = require('node-media-server');
-const os = require('os')
+const NodeMediaServer = require('node-media-server');
 
-const numCPUs = os.cpus().length;
 const config = {
     /*logType:0,*/
     rtmp: {
@@ -20,9 +18,6 @@ const config = {
         play:true,
         publish:true,
         secret:'5asdjWjd$%JKlkaSHIN_MEDI_KEY'
-    },*/
-    /*cluster: {
-        num: numCPUs
     }*/
 }
 
