@@ -11,6 +11,6 @@
   "license": "Apache 2.0 and MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "node-media-server": "^2.2.2"
+    "node-media-server": "^2.2.8"
   }
 }
